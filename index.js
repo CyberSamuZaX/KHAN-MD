@@ -114,7 +114,7 @@ const port = process.env.PORT || 9090;
   console.log('Bot connected to whatsapp ✅')
   
   let up = `*Hello there 𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃 User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet 𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃 WhatsApp Bot.\n\n *Thanks for using 𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃 \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nComing Soon...\n\n- *YOUR PREFIX:* = ${prefix}\n\n> © Powered BY 𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃 \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/wtqlhp.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
