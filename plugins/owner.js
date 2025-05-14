@@ -15,8 +15,8 @@ async (conn, mek, m, { from }) => {
 
         const vcard = 'BEGIN:VCARD\n' +
                       'VERSION:3.0\n' +
-                      `FN:${ownerName}\n` +  
-                      `TEL;type=CELL;type=VOICE;waid=${ownerNumber.replace('+', '')}:${ownerNumber}\n` + 
+                      `FN:94752677804\n` +  
+                      `TEL;type=CELL;type=VOICE;waid=94752677804:94752677804\n` + 
                       'END:VCARD';
 
         // Send the vCard
@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/149k8x.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *KHAN-MD* 〕━━┈⊷
+            image: { url: 'https://files.catbox.moe/wtqlhp.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *FAISAL-MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -44,8 +44,8 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'JawadTechX',
+                newsletterJid: '120363417956142223@newsletter',
+                ewsletterName: 'FAISAL-MD',
                     serverMessageId: 143
                 }            
             }
