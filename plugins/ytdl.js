@@ -10,7 +10,7 @@ function replaceYouTubeID(url) {
 }
 
 cmd({
-    pattern: "play3",
+    pattern: "play3", 
     alias: ["mp3", "ytmp3"],
     react: "🎵",
     desc: "Download Ytmp3",
@@ -44,7 +44,7 @@ cmd({
             `🔽 *Reply with your choice:*\n` +
             `1.1 *Audio Type* 🎵\n` +
             `1.2 *Document Type* 📁\n\n` +
-            `${config.FOOTER || "𓆩JawadTechX𓆪"}`;
+            `${config.FOOTER || "𓆩𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃𓆪"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
