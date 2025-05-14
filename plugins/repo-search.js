@@ -18,14 +18,12 @@ cmd({
     const { data } = await axios.get(apiUrl);
 
     let responseMsg = `📁 *GitHub Repository Info* 📁\n\n`;
-    responseMsg += `📌 *Name*: ${data.name}\n`;
-    responseMsg += `🔗 *URL*: ${data.html_url}\n`;
-    responseMsg += `📝 *Description*: ${data.description || "No description"}\n`;
-    responseMsg += `⭐ *Stars*: ${data.stargazers_count}\n`;
-    responseMsg += `🍴 *Forks*: ${data.forks_count}\n`;
-    responseMsg += `👤 *Owner*: ${data.owner.login}\n`;
-    responseMsg += `📅 *Created At*: ${new Date(data.created_at).toLocaleDateString()}\n`;
-    responseMsg += `\n> *© Powered by JawadTechX*`;
+    responseMsg += `📌 *Name*: FAISAL-MD\n`;
+    responseMsg += `🔗 *URL*: https://github.com/Queen-anita/FAISAL-MD-watsapp-new-bot\n`;
+    responseMsg += `📝 *Description*: This FAISAL-MD Whatsapp Bot Created By The Proector & Samuza\n`;
+    responseMsg += `👤 *Owner*: FAISAL-MD\n`;
+    responseMsg += `📅 *Created At*:2025/05/16\n`;
+    responseMsg += `\n> *© Powered by FAISAL-MD*`;
 
     await conn.sendMessage(from, { text: responseMsg }, { quoted: m });
   } catch (error) {
