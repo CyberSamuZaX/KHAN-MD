@@ -41,7 +41,7 @@ cmd({
         await conn.sendMessage(from, {
             video: { url: data.result.download_url },
             mimetype: 'video/mp4',
-            caption: `*${title}*`
+            caption: `*${title}*/n/n> Powered By FAISAL-MD`
         }, { quoted: mek });
 
         await reply(`✅ *${title}* downloaded successfully!`);
