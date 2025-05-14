@@ -4,86 +4,6 @@ const { runtime } = require('../lib/functions');
 const os = require("os");
 const axios = require('axios');
 
-cmd({
-    pattern: "menu3",
-    desc: "menu the bot",
-    category: "menu2",
-    react: "⚡",
-    filename: __filename
-},
-async (conn, mek, m, { from, sender, pushname, reply }) => {
-    try {
-        const dec = `╭━━━〔 *${config.BOT_NAME} Main Menu* 〕━━━╮
-┃ ✨ *Owner:* ${config.OWNER_NAME}
-┃ ⚙️ *Mode:* ${config.MODE}
-┃ 📡 *Platform:* Heroku
-┃ 🧠 *Type:* NodeJs (Multi Device)
-┃ ⌨️ *Prefix:* ${config.PREFIX}
-┃ 🧾 *Version:* 3.0.0 Beta
-╰━━━━━━━━━━━━━━━━━━━━━━━━╯
-
-╭━━〔 🧩 *Command Categories* 〕━━╮
-┃ 📖 Quranmenu
-┃ 🕋 Prayertime
-┃ 🤖 Aimenu
-┃ 🎭 Anmiemenu
-┃ 😹 Reactions
-┃ 🔁 Convertmenu
-┃ 🎉 Funmenu
-┃ ⬇️ Dlmenu
-┃ ⚒️ Listcmd
-┃ 🏠 Mainmenu
-┃ 👥 Groupmenu
-┃ 📜 Allmenu
-┃ 👑 Ownermenu
-┃ 🧩 Othermenu
-┃ 🖌️ Logo
-┃ 📦 Repo
-╰━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
-> ${config.DESCRIPTION}
-`;
-
-        await conn.sendMessage(
-            from,
-            {
-                image: { url: config.MENU_IMAGE_URL },
-                caption: dec,
-                contextInfo: {
-                    mentionedJid: [m.sender],
-                    forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
-                        serverMessageId: 143
-                    }
-                }
-            },
-            { quoted: mek }
-        );
-
-        // Send cool voice note with context
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYT36/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
-            mimetype: 'audio/mp4',
-            ptt: true,
-            contextInfo: {
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'JawadTechX',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
-
-    } catch (e) {
-        console.error(e);
-        reply(`❌ Error:\n${e}`);
-    }
-});
 
 cmd({
     pattern: "logo",
@@ -134,15 +54,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7zfdcq.jpg` },
+                image: { url: `https://files.catbox.moe/wtqlhp.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: "JawadTechX",
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: "FAISAL-MD",
                         serverMessageId: 143
                     }
                 }
@@ -207,8 +127,8 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 144
                     }
                 }
@@ -283,15 +203,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/qj853s.jpg` },
+                image: { url: `https://files.catbox.moe/wtqlhp.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
                 }
@@ -368,8 +288,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
                 }
@@ -435,8 +355,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
                 }
@@ -506,8 +426,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
                 }
@@ -558,8 +478,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
                 }
@@ -617,8 +537,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
                 }
@@ -678,8 +598,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
                 }
@@ -747,8 +667,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
                 }
@@ -806,8 +726,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
                 }
