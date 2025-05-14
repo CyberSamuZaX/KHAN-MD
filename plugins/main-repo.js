@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/JawadYT36/KHAN-MD';
+    const githubRepoURL = 'https://github.com/CyberSamuZaX/KHAN-MD';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -24,7 +24,7 @@ async (conn, mek, m, { from, reply }) => {
         const style1 = `╭───『 ${config.BOT_NAME} REPO 』───⳹
 │
 │ 📦 *Repository*: ${repoData.name}
-│ 👑 *Owner*: ${repoData.owner.login}
+│ 👑 *Owner*: THE PROTECTOE
 │ ⭐ *Stars*: ${repoData.stargazers_count}
 │ ⑂ *Forks*: ${repoData.forks_count}
 │ 🔗 *URL*: ${repoData.html_url}
