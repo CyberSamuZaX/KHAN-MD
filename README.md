@@ -47,7 +47,7 @@
     
 <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #ff00ff;">
   <p style="color: #00ffff;">First star & Fork repo using button Below !</p>
-  <a href='https://github.com/Queen-anita/FAISAL-MD-watsapp-new-bot.git/fork' target="_blank">
+  <a href='https://github.com/Queen-anita/FAISAL-MD-watsapp-new-bot/fork' target="_blank">
     <img src='https://img.shields.io/badge/FORK_REPOSITORY-008000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000'/>
   </a>
 </div>
