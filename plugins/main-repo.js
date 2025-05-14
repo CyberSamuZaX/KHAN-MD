@@ -179,8 +179,8 @@ ${repoData.description || 'No description provided'}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: config.OWNER_NAME || 'JawadTechX',
+                    newsletterJid: '120363363023106228@newsletter',
+                    newsletterName: config.OWNER_NAME || 'FAISAL-MD',
                     serverMessageId: 143
                 }
             }
