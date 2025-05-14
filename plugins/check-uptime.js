@@ -47,7 +47,7 @@ ${config.DESCRIPTION}`;
 ├──────────────────────┤
 │ • Time: ${uptime}
 │ • Started: ${startTime.toLocaleString()}
-│ • Version: 4.0.0
+│ • Version: 1.0.0
 └──────────────────────┘`;
 
         // Style 5: Modern Blocks
@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: config.OWNER_NAME || 'JawadTechX',
+                    newsletterJid: '120363417956142223@newsletter',
+                    newsletterName: config.OWNER_NAME || '𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃',
                     serverMessageId: 143
                 }
             }
