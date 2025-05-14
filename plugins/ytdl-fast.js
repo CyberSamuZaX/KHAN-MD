@@ -35,7 +35,7 @@ cmd({
 👀 *Views:* ${yts.views}
 👤 *Author:* ${yts.author.name}
 🔗 *Link:* ${yts.url}
-> Powered By JawadTechX ❤️`;
+> Powered By 𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃`;
 
         // Send video directly with caption
         await conn.sendMessage(
