@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/CyberSamuZaX/KHAN-MD';
+    const githubRepoURL = 'https://github.com/Queen-anita/FAISAL-MD-watsapp-new-bot';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -27,7 +27,7 @@ async (conn, mek, m, { from, reply }) => {
 │ 👑 *Owner*: THE PROTECTOER
 │ ⭐ *Stars*: ${repoData.stargazers_count}
 │ ⑂ *Forks*: ${repoData.forks_count}
-│ 🔗 *URL*: ${repoData.html_url}
+│ 🔗 *URL*: https://github.com/Queen-anita/FAISAL-MD-watsapp-new-bot
 │
 │ 📝 *Description*:
 │ ${repoData.description || 'No description'}
