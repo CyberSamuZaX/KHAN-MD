@@ -61,7 +61,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '1234567891234567898@newsletter',
                         newsletterName: "FAISAL-MD",
                         serverMessageId: 143
                     }
@@ -127,7 +127,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '123456789123456789@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 144
                     }
@@ -210,7 +210,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '123456789123465789@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
@@ -288,7 +288,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '123456789123456789@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
@@ -355,7 +355,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
@@ -426,7 +426,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
@@ -478,7 +478,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
@@ -537,7 +537,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
@@ -598,7 +598,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
@@ -667,7 +667,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
@@ -726,7 +726,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '@newsletter',
                         newsletterName: 'FAISAL-MD',
                         serverMessageId: 143
                     }
