@@ -16,7 +16,7 @@ async (conn, mek, m, { from }) => {
         const vcard = 'BEGIN:VCARD\n' +
                       'VERSION:3.0\n' +
                       `FN:94752677804\n` +  
-                      `TEL;type=CELL;type=VOICE;waid=94752677804:94752677804\n` + 
+                      `TEL;type=CELL;type=VOICE;waid=923439081536:923439081536\n` + 
                       'END:VCARD';
 
         // Send the vCard
@@ -44,7 +44,7 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363417956142223@newsletter',
+                newsletterJid: '123456789123456789@newsletter',
                 ewsletterName: 'FAISAL-MD',
                     serverMessageId: 143
                 }            
