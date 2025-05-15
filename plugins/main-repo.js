@@ -23,8 +23,8 @@ async (conn, mek, m, { from, reply }) => {
         // Format 1: Classic Box
         const style1 = `╭───『 ${config.BOT_NAME} REPO 』───⳹
 │
-│ 📦 *Repository*: ${repoData.name}
-│ 👑 *Owner*: THE PROTECTOE
+│ 📦 *Repository*: FAISAL-MD
+│ 👑 *Owner*: THE PROTECTOER
 │ ⭐ *Stars*: ${repoData.stargazers_count}
 │ ⑂ *Forks*: ${repoData.forks_count}
 │ 🔗 *URL*: ${repoData.html_url}
@@ -63,7 +63,7 @@ async (conn, mek, m, { from, reply }) => {
         const style4 = `┌──────────────────────┐
 │  ⚡ ${config.BOT_NAME} REPO  ⚡  │
 ├──────────────────────┤
-│ • Name: ${repoData.name}
+│ • Name: FAISAL-MD
 │ • Owner: ${repoData.owner.login}
 │ • Stars: ${repoData.stargazers_count}
 │ • Forks: ${repoData.forks_count}
@@ -89,7 +89,7 @@ async (conn, mek, m, { from, reply }) => {
         const style6 = `╔══════════════════════╗
 ║   ${config.BOT_NAME} REPO    ║
 ╠══════════════════════╣
-║ > NAME: ${repoData.name}
+║ > NAME: FAISAL-MD
 ║ > OWNER: ${repoData.owner.login}
 ║ > STARS: ${repoData.stargazers_count}
 ║ > FORKS: ${repoData.forks_count}
@@ -103,8 +103,8 @@ async (conn, mek, m, { from, reply }) => {
 │  📂  REPO  │
 └───────────────┘
 │
-│ *Project*: ${repoData.name}
-│ *Author*: ${repoData.owner.login}
+│ *Project*: FAISAL-MD
+│ *Author*: THE PROTECTOR
 │
 │ ✨ ${repoData.stargazers_count} Stars
 │ ⑂ ${repoData.forks_count} Forks
