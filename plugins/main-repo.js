@@ -179,7 +179,7 @@ ${repoData.description || 'No description provided'}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363363023106228@newsletter',
+                    newsletterJid: '123456789123456789@newsletter',
                     newsletterName: config.OWNER_NAME || 'FAISAL-MD',
                     serverMessageId: 143
                 }
@@ -188,7 +188,7 @@ ${repoData.description || 'No description provided'}
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/CyberSamuZaX/FAISAL-MD-DATA/raw/refs/heads/main/outoalive.mpeg },
+            audio: { url: 'https://github.com/CyberSamuZaX/FAISAL-MD-DATA/raw/refs/heads/main/outoalive.mpeg' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
